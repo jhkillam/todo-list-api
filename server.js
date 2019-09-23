@@ -6,12 +6,25 @@ var app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
+app.use(express.static(__dirname + '/public'));
+
 var todoList = [
     {
         // id: uuid(),
         id: 1,
         todo: "Implement a REST API"
-    }
+    }, 
+    {
+        // id: uuid(),
+        id: 2,
+        todo: "get lunch"
+    }, 
+    {
+        // id: uuid(),
+        id: 3,
+        todo: "make websites"
+    }, 
+    
 ];
 
 function fetchTodoById(id) {

@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(191, 191, 191);
+}
+
+h1 {
+    text-align: center;
+}
+
+.delete-btn {
+    background-color: red;
+}
+
+.input-wrapper {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#userInput {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;	
+    width: 100%;
+}
+
+#add-btn {
+    display: block;
+    margin: 5px auto;
+}
+
+.todo-txt { 
+    padding: 20px 0px 5px 0px;
+}
+
+#todos {
+    text-align: center;
+}
